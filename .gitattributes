@@ -15,3 +15,4 @@
 *.toml      text    eol=crlf
 *.env       text    eol=crlf
 *.md        text    eol=crlf
+LICENSE     text    eol=crlf
