@@ -143,6 +143,8 @@ export default defineConfig({
     "file": path.join(DEST_DIR, PLUGIN_FILENAME),
     // scriptタグから読み込まれる為、IIFE形式のJavaScriptとして出力させる
     "format": "iife",
+    // 'use strict'を出力する
+    "strict": true,
     // ソースマップはデバッグビルド時のみ有効にする
     "sourcemap": buildTarget === "debug" ? "inline" : false,
     // 出力インデントはスペースとする
