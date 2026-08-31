@@ -1,0 +1,1 @@
+# UTA_RPGMVZPluginTemplate
