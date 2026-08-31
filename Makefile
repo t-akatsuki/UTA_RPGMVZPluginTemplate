@@ -11,7 +11,7 @@ DIST_DIR := ./dist
 .DEFAULT_GOAL := help
 
 # 仮想ターゲットの定義
-.PHONY := help clean pack
+.PHONY := help clean js pack
 
 # コマンド群を1つのシェルプロセスで実行するように
 .ONESHELL:
@@ -24,6 +24,7 @@ help:
 	  
 	# Targets
 	clean : Clean dist directory.
+	js    : Run release build plugin js file.
 	pack  : Create package from built files.
 	EOS
 
@@ -31,6 +32,11 @@ help:
 clean:
 	@echo "Clean dist directory... ($(DIST_DIR))"
 	@find $(DIST_DIR) -mindepth 1 -delete
+
+# プラグインファイルのリリースビルド
+js:
+	@npm run clean
+	@npm run build:release
 
 # パッケージングスクリプトを実行
 pack:
