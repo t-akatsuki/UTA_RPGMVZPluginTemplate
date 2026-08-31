@@ -7,7 +7,6 @@
 *.mjs       text    eol=crlf
 *.ts        text    eol=crlf
 *.d.ts      text    eol=crlf
-*.sh        text    eol=crlf
 *.txt       text    eol=crlf
 *.json      text    eol=crlf
 *.yml       text    eol=crlf
@@ -16,3 +15,6 @@
 *.env       text    eol=crlf
 *.md        text    eol=crlf
 LICENSE     text    eol=crlf
+
+# linux上で実行するファイルはLFとする
+*.sh        text    eol=lf

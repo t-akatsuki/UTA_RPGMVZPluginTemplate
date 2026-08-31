@@ -9,8 +9,6 @@
   // ファイルエンコーディングはutf-8に統一
   // Windows10 May 2019 Updateからメモ帳でもUTF-8(BOMなし)がサポートされている
   "files.encoding": "utf8",
-  // 改行コードはCRLFに統一
-  "files.eol": "\r\n",
   // ファイルの関連付け
   "files.associations": {
     // jsonをjsoncとして解釈させる
