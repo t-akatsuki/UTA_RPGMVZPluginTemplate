@@ -13,6 +13,9 @@
   "bugs": {
     "url": "https://www.utakata-no-yume.net/contact/rpgmvmz/plugin-support/"
   },
+  "config": {
+    "PLUGIN_FILENAME": "UTA_PluginTemplateMVZ.js"
+  },
   "scripts": {
     "lint:js": "eslint --config eslint.config.mjs --color",
     "lint:txt": "textlint --config .textlintrc.json docs/README.txt",

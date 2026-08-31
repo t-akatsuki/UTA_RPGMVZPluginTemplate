@@ -47,7 +47,7 @@ const PLUGIN_ANNOTATION_FILEPATH = path.resolve("./src/annotation.js");
  * 出力ファイル名の定義。
  * @type {string}
  */
-const PLUGIN_FILENAME = "UTA_PluginTemplateMVZ.js";
+const PLUGIN_FILENAME = pkg.config.PLUGIN_FILENAME;
 
 /**
  * プラグイン内で利用する外部モジュールの定義。
