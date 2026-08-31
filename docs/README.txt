@@ -60,7 +60,7 @@ https://www.utakata-no-yume.net/contact/rpgmvmz/
 # 連絡先
 # -----------------------------------------------------------------------------
 ・作者名:
-    赤月 智平
+    赤月 智平 (t-akatsuki)
 ・Webサイト:
     https://www.utakata-no-yume.net
 ・GitHub:
